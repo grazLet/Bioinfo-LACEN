@@ -13,9 +13,14 @@ CGLAB:
 
 Rede Nacional de Sequenciamento Genético
 
+
 Layssa Portela
-Douglas Parise
+Gabriel
+Doglas Parise (doglas.parise@saude.gov.br)
 Mariana Parise
+Número de Telefone CGLAB: +556133153790
+
+Para mandar informações do
 
 MG - Marlon Custódio - Porto Velho - Rondonia(RO)
 Liliane Cavalcante - Rio de Janeiro , RJ
@@ -27,6 +32,7 @@ Stephanni Figueiredo - LACEN-MT
 Bruna Kellet - LACEN-SC
 Alexandre Freitas - LACEN-PE
 Luciano Franco - LACEN-PA (saiu do grupo?)
+Kenny - LACEN-PA (GLEN e keny sao conhecidos)
 Juliano Silveira - LACEN-RS
 Glen García - LACEN-MS
 Mariane Brom - LACEN-GO
@@ -34,142 +40,141 @@ Márlon Custódio - LACEN-RO
 Luiz Marcelo - LACEN-MG
 Gabriel Motta - LACEN-RN
 Liliane Cavalcante - LACEN-RJ
+Lucas Salomão - LACEN-MA
+Leticia - LACEN-PR
+Clóvis Reis -
+Alexandre - LACEN-SE (Modelagem matemática)
+Thiago J Souza - LACEN-ES
+
+
+
+# Obter acesso ao GISAID
+
+O bioinformata vai ter que verificar se o LACEN ja possui algum acesso ao GISAID.
+Em caso de negativa, o bioinformata tera que solicitar um email institucional para o seu respectivo LACEN ou criar um novo email Gmail.
+Com este email institucional/Gmail o bioinformata vai se registrar na plataforma GISAID (link de registro) e notificar a CGLAB por email(email cglab) que se registrou e aguarda aprovação
 
 
 Como fazer os produtos?
+
+O título do produto precisa ser exatamente igual ao que consta no contrato, senão a OPAS devolve o produtos
+Faturas precisam ser exatamente igual o modelo enviado, senão OPAS devolve.
+
+
+Modelo produtos (docx)
+
+Modelo Fatura (docx)
+
+Entrega do produto e fatura devem ser em PDF. Fatura tem que ser com assinatura em punho.
+
 Como funciona o contrato OPAS?
 Insenção no imposto de rendo do contrato OPAS
+Onde fica o número de contrato?
 
 
 Ferramentas de bioinformática para vírus utilizadas pelo
 [EVBC](https://evbc.uni-jena.de/) - Centro Europeu de Bioinformática em Vírus :  [Ferramentas](https://evirusbioinfc.notion.site/evirusbioinfc/18e21bc49827484b8a2f84463cb40b8d?v=92e7eb6703be4720abf17a901bc9a947)
 
-Artigo da Marta
+Artigo da Nature da Marta (compartilhado por Filipe Rego): [*Genomic epidemiology of the SARS-CoV-2
+epidemic in Brazil*](https://www.nature.com/articles/s41564-022-01191-z.pdf)
+
+# Relatório Situacional do LACEN - SARS-CoV-2
+
+Todo inicio de contrato requere que cada bioinformata que seja contrato e encaminhado a um dos LACENs faça um diagnóstico situacional do LACEN em relação ao sequenciamento de SARS-CoV-2 e encaminhem para o email (cglab.informacao@saude.gov.br) - Está demanda foi solicitada por email.
+
+- Utilizar papel timbrado do LACEN
+- Quantas rodadas de sequenciamento foram realizadas? Quantas rodadas ainda serão realizadas com os insumos já recebidos?
+- Quantas Linhagens foram sequenciadas (por rodada e ao todo)?
+- Quais as análises realizadas nestas linhagens e os softwares utilizados?
+- Quantos genomas foram depositados no GISAID até o momento?
+- Quantas linhagens foram registradas e liberadas no GAL?
+- Quais tipos de sequenciamento e plataformas são realizadas no LACEN?
+
+
+**Dúvidas sobre como realizar o Relatório Situacional, mandar email para o Doglas ( doglas.parise@saude.gov.br ) ou cglab.informacao@saude.gov.br**
+
+ Exemplo de Relatório de acompanhamento: Relatorio AC.docx()
+
+ Manual de procedimentos obrigatórios para RNSG (Devemos disponibilizar esses documentos publicamente? ou deixar num drive privado entre a gente?)
+
+
+**Dúvidas em relação aos produtos ou contratos OPAS enviar para email da Andreia (andreia.borges@saude.gov.br) ou Livia (livia.castro@saude.gov.br)**
 
 
 
+
+
+Para cada sequenciamento realizado no LACEN com insumos enviados pela CGLAB/MS é necessário enviar relatórios conforme o manual de procedimentos.
+
+Analises realizadas utilizadno GenomeDetective ou ViralFlow
+NextClade
+Iqtree
+MAFFT
+TempEst
+corona virus type tool
+Aliview
+MultiFASTA Builder/ cat *.fasta> multifasta.fasta
+UGENE
+Tablet
+IGV -broadinstitute
+
+singularity(recomendado pelos autores) ou docker para o viralFlow
+
+Douglas Parise notificou que haverá um treinamento nacional de bioinformática em Brasília de 21 a 25 de novembro para os bioinformatas contratados com tudo pago. Haverá aulas de linux e de sequenciamento. Cada LACEN poderá enviar 2 pessoas (1 bioinformata e +1 técnico do LACEN). - obs: o evento esta em fase de definição e informações oficiais e definitivas serão mandadas por email. (Alexandre A respeito da nova versão implementada em nextflow e com outras funcionalidades p outros vírus.)
+
+Douglas Parise notificou que há uma demanda de obter computadores Linux de alto desempenho para cada um dos LACENs, mas no momento está em fase de aquisição, esse processo esta preso na burocracia e ainda não há previsão de datas para a chegada dos mesmos.
+
+Alexandre +55818227-1043 (ajudou a desenvolver o viralflow)
+
+
+# Curadoria
+
+OI alexandre, bem vindo, esse arquivo gerado deve ser curado, pois nem sempre as ferramentas de mapeamento/assemble acertam, fique atento com sequencias com baixa cobertura principalmente, mas observe os indels e a tradução das proteinas (verificar presença de stop codon prematuro). Depois deve-se pensar em montar o dataset para análise filogenética
+Oi Felipe, obrigado pela atenção. Ok então devo pegar o NT aligment e fazer a curadoria? Ou deveria pegar NT, CDS e contigs alignment, que são FASTA, transforma-los em multi fasta e só assim fazer a curadoria?
+entao devo transforma NT alignment em multi fasta correto?
+
+Mas você pode fazer todas simultaneamente, salva um bom tempo. Eu alinho todas as sequencias de uma corrida com a referencia de wuham e depois analiso as regiões que contem gaps ou um conjunto de mutações
+vc vai precisar de uma ferramenta para visualização de arquivos de mapeamento, para verificar a região, nesse momento entra uma análise um pouco subjetiva
+
+Eu ganhei a assinatura do geneious, fica bem fácil visualizar, eu monto pelo genome detective e faço o mapeamento utilizando o plugin BBmap pelo geneious e comparo as diferenças visualmente
+
+
+# Cursos
+
+Curso de bioinformatica baseada em nuvem para COVID-19: [FutureLearn](https://www.futurelearn.com/courses/making-sense-of-genomic-data-covid-19-web-based-bioinformatics)
+
+Treinamento de RNSG-LACEN disponibilizado pela CGLAB para técnicos de bancada: [Google Drive](https://drive.google.com/drive/u/0/folders/1_hH8atRrU7i8EsNGGrljMitludhDiHyP)
+
+Script em R para mapear um genoma de SARS-CoV-2: [R Script](https://drive.google.com/file/d/16P4phcgt4NqgXgYWkHJlpcyadMsfWCic/view?usp=sharing)
+
+Script em R para mapear todos os genomas de SARS-CoV-2 em uma pasta: [R Script](https://drive.google.com/file/d/1vVaFNHnGiUuN1Ns3oft5bEF5LtTfvtgV/view?usp=sharing)
+
+
+Passo-a-passo para mapeamento das reads no genoma montado: (arquivo ta com falha para download)
+
+GISAID Bioinformatics Training. (PAOLA divulgou, mas já foi) [GISAID Training](https://gisaid.org/events/training-workshops/belfast-workshop-2022/)
 
 
 https://hacktoberfest.com/
 
+[ClusTRace](https://pubmed.ncbi.nlm.nih.gov/35643449/) (enviado pelo ) - Pipeline de bioinformatica para analiuser clusters de filogenia de virus.
+
+[Geobr]() (enviado pela Leticia) - Pacote do R para gerar Mapas do estado e do Brasil.
+
+
+Fernando Melo - LACEN-DF esta treinando a equipe do LACEN-DF
+"equipe seja capaz de desenhar protocolos (amplicon e shotgun) para o sequenciamento em diferentes plataformas (Illumina e Nanopore), consiga planejar e otimizar custos, faça o controle de qualidade dos resultados do sequenciamento, montagem e anotação de genomas, análise de variantes e filogeografia, e manutenção/padronização dos dados gerados"
+"A idéia é trabalhar sempre com problemas reais. Ontem desenhamos/discutimos possíveis protocolos pra o sequenciamento de MPX. A ideia é trabalhar o desenho dos protocolos para garantir que entendam a importância de cada etapa dos protocolos já padronizados no laboratório e o impacto de erros nessas etapas na qualidade final dos resultados do sequenciamento."
+"eu inclui Filogeografia apenas como exemplo de aplicação dos dados e para que pudessem entender conceito de migrações e o impacto disso nas estratégias de controle, etc..  será o ultimo módulo.. superficial.."
+
+Filipe Rego  é professor de salvador do evento *SARS-CoV-2 Bioinformatics for Beginners* e ele conseguiu ajuda de custo para cursos no LACEN dele para realizar treinamento no butanta com passagens e hospedagens pagas pelo LACEN.
 
 
 
-# Mentoria
+# Eventos
 
-> Todo conhecimento deve ser compartilhado, pois somente a educação é que pode mudar algo no mundo.
+31 de outubro - 02 de dezembro 2022 - [SARS-CoV-2 Bioinformatics for Beginners](https://coursesandconferences.wellcomeconnectingscience.org/event/sars-cov-2-bioinformatics-for-beginners-20221031/)
 
-## O que é mentoria
+Global Alliance for Genomics and Health (GA4GH) - 10th plenary - [GA4GH agenda](https://broadinstitute.swoogo.com/ga4gh-10th-plenary/agenda) /[Livestream/Canal do youtube](https://www.youtube.com/watch?v=-o82mAjXILk)
 
-Mentoria tem como foco ajudar alguém a **alcançar objetivos**, aprimorando suas habilidades técnicas ou interpessoais, pois nosso propósito é auxiliar a pessoa a encontrar um caminho mais promissor, tendo como o alvo o progresso e o crescimento pessoal e profissional do mentorado ou da mentorada.
-
-Mentorar é dar conselhos baseado em nossa experiência profissional, por isso tende a ser um bate papo informal, não um curso ou aulas particulares de assunto x.
-
-O processo de mentoria não é o mesmo de ajudar em um fórum de discussões ou participar do nosso Slack, onde respondemos alguma dúvida e vamos embora. Mas é um acompanhamento pessoal onde buscamos conhecer as **necessidades** profissionais da pessoa, suas **dificuldades** e **limites** e então tentamos sobrepor esses limites, ajudando a pessoa a superar suas dificuldades até conseguir suprir suas necessidades profissionais.
-
-**Exemplo**
-
-- **uma necessidade** pode ser: desejo me tornar programador(a) front-end/mobile/back-end/etc;
-- **uma dificuldade** pode ser: por mais que eu tente muito, não consigo me dar bem com lógica de programação;
-- **um limite** pode ser: eu não tenho muito tempo livre durante a semana, pois moro longe do meu emprego, por isso saio às 5h e chego às 23h.
-
-Nosso papel, neste exemplo, é ajudar essa pessoa a superar o limite da falta de tempo, darmos os melhores conselhos para que ela supere a dificuldade em lógica de programação, mas o objetivo final é dar todas as dicas possíveis para que ela se torne programadora. Não vamos dar aulas de lógica de programação, mas dicas para que essa pessoa aprenda por sí própria baseada em nossa experiência de carreira.
-
-Entenda mais sobre mentoria neste artigo: [Significado de Mentoring](https://www.significados.com.br/mentoring/).
-
-E nestes aqui:
-
-- [Dicas para novos(as) mentores(as)](https://medium.com/trainingcenter/dicas-para-novos-as-mentores-as-9e87fa30b2b4).
-- [Dicas para novos(as) mentorados(as)](https://medium.com/trainingcenter/dicas-para-novos-as-pupilos-as-3f82f6237e9a)
-
-Qualquer pessoa pode mentorar, desde que tenha experiência em um assunto.
-
-## Como funciona o projeto Mentoria
-
-Este projeto conecta pessoas que desejam mentorar com pessoas buscando mentoria.
-
-**Nós não fazemos micro gerenciamento**, então, uma vez que alguém se cadastra como mentor(a) é de sua responsabilidade gerenciar seu tempo, sua participação ativa na vida do(a) mentorado(a) e também de remover seu nome da lista caso não tenha mais tempo hábil para receber contatos.
-
-O mesmo se encaixa para quem busca mentoria, é de sua responsabilidade entrar em contato com alguém da lista de mentores(as) e manter a comunicação ativa. A pessoa que presta mentoria não é obrigada a te cobrar ou manter contato contigo, por isso é necessário se manter de modo ativo buscando conselhos do mentor ou mentora.
-
-É extremamente importante que você entenda o que é mentoria e o que nós nos propomos a fazer neste projeto, por isso leia essa documentação até o final e não fique com dúvidas antes de participar.
-
-Se você tiver qualquer dúvida sobre o processo, abra uma issue neste repositório, clicando [aqui](https://github.com/training-center/mentoria/issues/new).
-
-## Preciso de ajuda
-
-Em primeiro lugar é necessário entender que **alguém que presta mentoria pelo Training Center não é um(a) professor(a) particular**. Essa pessoa não irá te dar aulas, mas dicas e conselhos para alcançar seu objetivo, seja aprender algo, entrar em um emprego novo, como conseguir um emprego, subir de cargo, se tornar um(a) profissional melhor, tirar dúvidas relacionadas a profissão, etc.
-
-**Você deve ler todo este documento para entender as responsabilidades de ambas as partes.**
-
-Cada mentor(a) possui seus métodos para transmitir conhecimento, mas todos seguem a regra de ajudar alguém por **2 meses**, o que pode mudar caso o mentor ou mentora perceba que é necessário.
-
-Caso você receba um conselho ou uma pergunta de seu/sua mentor(a) e não responda em até uma semana, essa pessoa pode “te abandonar” e partir para o auxílio a outro(a) mentorado(a).
-
-Se você entrar em contato com alguém e essa pessoa não te responder em até uma semana, provavelmente ela não consegue te ajudar agora e você pode partir para o próximo mentor ou mentora que atenda seu objetivo na lista de mentores(as).
-
-A pessoa que presta mentoria pelo Training Center assume o papel de agente ativo na sociedade com o objetivo de ajudar pessoas a mudar vidas de maneira voluntária. Por isso, se alguém te cobrar qualquer valor para prestar mentoria, nos avise através do formulário de denúncias, pois iremos banir essa pessoa, [formulário de denúncias](http://bit.ly/feedback-tc-mentoria).
-
-O Training Center possui um [código de conduta](http://bit.ly/coc-mentoria) que deve ser seguido e respeitado em todas as nossas iniciativas, você deve seguir estas regras, assim como seu mentor ou mentora. Caso você desrespeite o [código de conduta](http://bit.ly/coc-mentoria), será banido(a) do nosso projeto e da comunidade, o mesmo se aplica a pessoa que lhe presta mentoria, caso ela infrinja alguma regra, nos avise através do [formulário de denúncias](http://bit.ly/feedback-tc-mentoria), pois iremos banir essa pessoa.
-
-Caso você goste muito da ajuda que recebeu ao final dos dois meses pode enviar um "depoimento" que ficará guardado neste repositório como forma de retorno ao apoio do mentor ou mentora. Para isso basta seguir este [template](./.github/testimony.template.md).
-
-Se você nunca mexeu com Git e GitHub, nós recomendamos que você faça <a href="https://www.udemy.com/git-e-github-para-iniciantes/" title="Curso de Git e GitHub gratuito e sensacional do @willianjusten">esse curso</a> (gratuito e sensacional) do [@willianjusten](https://github.com/willianjusten), pois nós utilizamos o GitHub para quase tudo o que fazemos e você vai imergir nesse mundo junto conosco: [Git e GitHub para iniciantes](https://www.udemy.com/git-e-github-para-iniciantes/).
-
-Para conseguir mentoria, basta entrar [nesta lista](./mentors-list.md), encontrar alguém que corresponda com sua necessidade e entrar em contato com ela.
-
-Lembre-se que essa pessoa presta mentoria em seu tempo livre, não como profissão, por isso ela pode demorar para responder. Caso ela não te responda em uma semana siga a regra anterior de entrar em contato com outra pessoa. Não será tolerado nenhum tipo de ofença a mentores e mentoras em nenhum canal de comunicação, como redes sociais ou Slack, por conta da demora em responder ou mesmo caso essa pessoa nunca responda seu primeiro contato, pois as regras para denúncias se encontram neste documento.
-
-Não se esqueça de dar uma estrelinha neste repositório para sabermos que você gostou da iniciativa. ;)
-
-## Quero mentorar
-
-**É importante que você leia todo este documento para entender como o projeto funciona, além de entender as responsabilidades do(a) mentorado(a).**
-
-Você deve enviar um pull request com os seus dados para [esta lista](./mentors-list.md), a lista de mentores(as) seguindo o padrão que encontra aqui: [template](./.github/mentor-list.template.md).
-
-As pessoas irão entrar em contato contigo pelo canal de contato que você colocar na lista e, caso o número de contatos seja muito alto, você pode remover esse canal da lista trocando por um emoji de congelado (`:snowflake:` :snowflake:) e depois colocar novamente, de acordo com seu tempo livre.
-
-Você não é obrigado(a) a responder todas as interações e, se ficar sem responder alguém por mais de uma semana, essa pessoa entenderá que você não vai conseguir ajudar nesse momento e vai partir para outro(a) mentor(a).
-
-Nós recomendamos que você preste mentoria para a pessoa durante dois meses. Caso você ache necessário ou crie um vínculo muito legal, pode continuar ajudando de acordo com sua própria gestão.
-
-Esse projeto **NÃO** tem fins lucrativos, por isso você **NÃO PODE** cobrar para ser mentor(a) de nenhuma pessoa que pediu ajuda aqui!
-
-**Por favor, não use este projeto para vender seus cursos/sites, etc. Se quiser nos doar cupons de descontos ou algo do tipo para incentivar as pessoas da nossa comunidade, basta entrar em contato em contact.trainingcentr@gmail.com.**
-
-Nós estamos aqui para ajudar as pessoas de forma **gratuita**, a fim de garantir a inclusão social de todas as pessoas na área de desenvolvimento de software.
-
-O Training Center possui um [código de conduta](http://bit.ly/coc-mentoria) que deve ser seguido e respeitado em todas as nossas iniciativas, você deve seguir estas regras, assim como seu mentorado ou mentorada. Caso você desrespeite o [código de conduta](http://bit.ly/coc-mentoria), será banido(a) do nosso projeto e da comunidade, o mesmo se aplica a pessoa que lhe recebe mentoria, caso ela infrinja alguma regra, nos avise através do [formulário de denúncias](http://bit.ly/feedback-tc-mentoria), pois iremos banir essa pessoa.
-
-## Regras gerais (TL;DR)
-
-- ambas as partes devem se responder em até uma semana, caso isso não aconteça devemos entender como quebra de vínculo/fim de mentoria
-- ambas as partes devem seguir nosso [código de conduta](http://bit.ly/coc-mentoria)
-- ambas as partes devem se gerenciar
-- o Training Center não fará micro gerenciamento
-- ambas as partes devem ter lido todo este documento para entender como tudo funciona
-- ambas as partes devem denunciar qualquer caso de desrespeito ao código de conduta pelo [formulário de denúncias](http://bit.ly/feedback-tc-mentoria)
-
-## Como surgiu o projeto Mentoria
-
-O Mentoria surgiu a partir da ideia do [@baltazarparra](https://github.com/baltazarparra) [nessa issue](https://github.com/frontendbr/open-source/issues/5) no forum do [Front End Brasil](https://github.com/frontendbr). Na issue você consegue entender um pouco mais do por que esse projeto ter nascido.
-
-## Conheça o Training Center
-
-Artigos para você conhecer mais sobre nossa comunidade:
-
-- [Training Center: uma comunidade aberta: a história da comunidade](https://medium.com/trainingcenter/training-center-uma-comunidade-aberta-a-hist%C3%B3ria-da-comunidade-901738da48aa)
-- [Training Center: o que e por que fazemos](https://medium.com/trainingcenter/training-center-o-que-e-por-que-fazemos-4be062b36196)
-- [Training Center: o que planejamos para o futuro](https://medium.com/trainingcenter/training-center-o-que-planejamos-para-o-futuro-e9436079f594)
-
-- [Facebook](http://bit.ly/facebook-training-center)
-- [Twitter](http://bit.ly/seguir-o-training-center)
-- [LinkedIn](http://bit.ly/seguir-no-linkedin)
-- [Medium (conteúdo em texto)](http://bit.ly/tc-medium)
-- [YouTube (conteúdo em vídeo)](http://bit.ly/TrainingCenterChannel)
-- [Meetups (encontros presenciais)](http://bit.ly/tc-meetups)
-
----
-
-## [Quem apoia o Training Center](https://github.com/training-center/sponsors)
+treinamento de nextflow e nf-core: https://nf-co.re/events/2022/training-october-2022
