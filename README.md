@@ -4,10 +4,13 @@
 
 Entre na lista de email/Google Groups [Clique Aqui](https://groups.google.com/g/bioinfo-lacen)
 
-Discord:
+Discord: (Iremos Criar?)
 Grupo do Whatsapp: [Clique aqui](https://chat.whatsapp.com/F0gk5b0SIWBJ5CAYRcO6Sv)
 
 
+
+
+# Sumário
 viralflow:
 
 # CGLAB
@@ -23,30 +26,47 @@ Número de Telefone CGLAB: +556133153790
 
 Para mandar informações do
 
-MG - Marlon Custódio - Porto Velho - Rondonia(RO)
-Liliane Cavalcante - Rio de Janeiro , RJ
-Alef Janguas da Costa - São Paulo SP (Instituto Adolf Lutz)
 
-Filipe Rego - LACEN-BA
-Fernando Melo - LACEN-DF
-Stephanni Figueiredo - LACEN-MT
-Bruna Kellet - LACEN-SC
-Alexandre Freitas - LACEN-PE
-Luciano Franco - LACEN-PA (saiu do grupo?)
-Kenny - LACEN-PA (GLEN e keny sao conhecidos)
-Juliano Silveira - LACEN-RS
-Glen García - LACEN-MS
-Mariane Brom - LACEN-GO
-Márlon Custódio - LACEN-RO
-Luiz Marcelo - LACEN-MG
-Gabriel Motta - LACEN-RN
-Liliane Cavalcante - LACEN-RJ
-Lucas Salomão - LACEN-MA
-Leticia - LACEN-PR
-Clóvis Reis -
-Alexandre - LACEN-SE (Modelagem matemática)
-Thiago J Souza - LACEN-ES
+-
+-
+-
+-
+-
+- Luciano Franco - LACEN-PA (saiu do grupo?)
+-
+-
+- Clóvis Reis -
+- Alexandre - LACEN-SE (Modelagem matemática)
+- Thiago J Souza - LACEN-ES
 
+
+- Acre (AC)
+- Alagoas (AL)
+- Amapá (AP)
+- Amazonas (AM)
+- Bahia (BA) -[inserir cidade]- **Filipe Rego** - LACEN-BA   ([Linkedin](),[Github](), [Contato]())
+- Ceará (CE)
+- Distrito Federal (DF) - Brasília - **Fernando Melo** ([Linkedin](),[Github](), [Contato]()) - LACEN-DF
+- Espírito Santo (ES) -  - **Thiago J Souza** ([Linkedin](),[Github](), [Contato]()) - LACEN-ES
+- Goiás (GO) -  - **Mariane Brom** ([Linkedin](),[Github](), [Contato]())  - LACEN-GO
+- Maranhão (MA) -  - **Lucas Salomão** ([Linkedin](),[Github](), [Contato]()) - LACEN-MA
+- Mato Grosso (MT) -  - **Stephanni Figueiredo** ([Linkedin](),[Github](), [Contato]()) - LACEN-MT
+- Mato Grosso do Sul (MS) -  - **Glen García** ([Linkedin](),[Github](), [Contato]()) - LACEN-MS
+- Minas Gerais (MG) -  - **Luiz Marcelo** ([Linkedin](),[Github](), [Contato]()) - LACEN-MG
+- Pará (PA) -  - **Kenny** ([Linkedin](),[Github](), [Contato]()) - LACEN-PA (GLEN e keny sao conhecidos)
+- Paraíba (PB)
+- Paraná (PR) -  - **Leticia** ([Linkedin](),[Github](), [Contato]()) - LACEN-PR
+- Pernambuco (PE) -  - **Alexandre Freitas** ([Linkedin](),[Github](), [Contato]()) - LACEN-PE
+- Piauí (PI)
+- Rio de Janeiro (RJ) - Rio de Janeiro - **Liliane Cavalcante** ([Linkedin](),[Github](), [Contato]())
+- Rio Grande do Norte (RN) -  - **Gabriel Motta** ([Linkedin](),[Github](), [Contato]()) - LACEN-RN
+- Rio Grande do Sul (RS) -  - **Juliano Silveira** ([Linkedin](),[Github](), [Contato]())  - LACEN-RS
+- Rondônia (RO) - Porto Velho - **Márlon Custódio** ([Linkedin](),[Github](), [Contato]())
+- Roraima (RR)
+- Santa Catarina (SC) -  - **Bruna Kellet** ([Linkedin](),[Github](), [Contato]()) - LACEN-SC
+- São Paulo (SP) - São Paulo - **Alef Janguas da Costa** ([Linkedin](),[Github](), [Contato]()) - LACEN-SP/ IAL-SP São Paulo SP (Instituto Adolf Lutz)
+- Sergipe (SE) -  - **Alexandre** ([Linkedin](),[Github](), [Contato]()) - LACEN-SE (Modelagem matemática)
+- Tocantins (TO)
 
 
 # Obter acesso ao GISAID
