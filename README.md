@@ -2,14 +2,15 @@
  Repositório com material de bioinformática para os LACENS e CGLAB
 
 
-Google Groups:
+Entre na lista de email/Google Groups [Clique Aqui](https://groups.google.com/g/bioinfo-lacen)
+
 Discord:
-Grupo do Whatsapp:
+Grupo do Whatsapp: [Clique aqui](https://chat.whatsapp.com/F0gk5b0SIWBJ5CAYRcO6Sv)
 
 
 viralflow:
 
-CGLAB:
+# CGLAB
 
 Rede Nacional de Sequenciamento Genético
 
