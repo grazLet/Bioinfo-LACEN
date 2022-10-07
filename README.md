@@ -89,7 +89,7 @@ Modelo Fatura (docx)
 Entrega do produto e fatura devem ser em PDF. Fatura tem que ser com assinatura em punho.
 
 Como funciona o contrato OPAS?
-Insenção no imposto de rendo do contrato OPAS
+Isenção no imposto de renda do contrato OPAS
 Onde fica o número de contrato?
 
 
