@@ -1,10 +1,10 @@
 # Bioinfo-LACEN
  Repositório com material de bioinformática para os LACENS e CGLAB
 
+# Você foi contratado como bioinformata para um dos LACENs?
 
 Entre na lista de email/Google Groups [Clique Aqui](https://groups.google.com/g/bioinfo-lacen)
 
-Discord: (Iremos Criar?)
 Grupo do Whatsapp: [Clique aqui](https://chat.whatsapp.com/F0gk5b0SIWBJ5CAYRcO6Sv)
 
 
@@ -35,43 +35,49 @@ Para mandar informações do
 - Luciano Franco - LACEN-PA (saiu do grupo?)
 -
 -
-- Clóvis Reis -
+-
 - Alexandre - LACEN-SE (Modelagem matemática)
 - Thiago J Souza - LACEN-ES
 
+| LACEN | CIDADE (UF) | NOME | CONTATO |
+| :--- | :--- | :--- | :--- |
+|[LACEN-AC]()| CIDADE (UF) | [nome do bioinformata]( https://www.linkedin.com/in/) | [Github](), [Contato]() |
+|[LACEN-AL]()| CIDADE (UF) | [nome do bioinformata]( https://www.linkedin.com/in/) | [Github](), [Contato]() |
+|[LACEN-AP](sitedainstituição.com)| CIDADE (UF) | [nome do bioinformata](https://www.linkedin.com/in/) | [Github](), [Contato]() |
+|[LACEN-AM](sitedainstituição.com)| CIDADE (UF) | [nome do bioinformata]( https://www.linkedin.com/in/) | [Github](), [Contato]() |
+|[LACEN-BA](sitedainstituição.com)| Salvador (BA) | [Filipe Rego](https://www.linkedin.com/in/) | [Github](), [Contato]() |
+|[LACEN-CE](sitedainstituição.com)| CIDADE (UF) | [nome do bioinformata](https://www.linkedin.com/in/) | [Github](), [Contato]() |
+|[LACEN-DF](sitedainstituição.com)| Brasília (DF) | [Fernando Melo](https://www.linkedin.com/in/) | [Github](), [Contato]() |
+|[LACEN-ES](sitedainstituição.com)| CIDADE (UF) | [Thiago J Souza](https://www.linkedin.com/in/) | [Github](), [Contato]() |
+|[LACEN-GO](sitedainstituição.com)| CIDADE (UF) | [Mariane Brom]( https://www.linkedin.com/in/) | [Github](), [Contato]() |
+|[](sitedainstituição.com)| CIDADE (UF) | [nome do bioinformata]( https://www.linkedin.com/in/) | [Github](), [Contato]() |
+|[](sitedainstituição.com)| CIDADE (UF) | [nome do bioinformata]( https://www.linkedin.com/in/) | [Github](), [Contato]() |
+|[](sitedainstituição.com)| CIDADE (UF) | [nome do bioinformata]( https://www.linkedin.com/in/) | [Github](), [Contato]() |
+|[](sitedainstituição.com)| CIDADE (UF) | [nome do bioinformata]( https://www.linkedin.com/in/) | [Github](), [Contato]() |
 
-- Acre (AC)
-- Alagoas (AL)
-- Amapá (AP)
-- Amazonas (AM)
-- Bahia (BA) -[inserir cidade]- **Filipe Rego** - LACEN-BA   ([Linkedin](),[Github](), [Contato]())
-- Ceará (CE)
-- Distrito Federal (DF) - Brasília - **Fernando Melo** ([Linkedin](),[Github](), [Contato]()) - LACEN-DF
-- Espírito Santo (ES) -  - **Thiago J Souza** ([Linkedin](),[Github](), [Contato]()) - LACEN-ES
-- Goiás (GO) -  - **Mariane Brom** ([Linkedin](),[Github](), [Contato]())  - LACEN-GO
-- Maranhão (MA) -  - **Lucas Salomão** ([Linkedin](),[Github](), [Contato]()) - LACEN-MA
-- Mato Grosso (MT) -  - **Stephanni Figueiredo** ([Linkedin](),[Github](), [Contato]()) - LACEN-MT
-- Mato Grosso do Sul (MS) -  - **Glen García** ([Linkedin](),[Github](), [Contato]()) - LACEN-MS
-- Minas Gerais (MG) -  - **Luiz Marcelo** ([Linkedin](),[Github](), [Contato]()) - LACEN-MG
-- Pará (PA) -  - **Kenny** ([Linkedin](),[Github](), [Contato]()) - LACEN-PA (GLEN e keny sao conhecidos)
-- Paraíba (PB)
-- Paraná (PR) -  - **Leticia** ([Linkedin](),[Github](), [Contato]()) - LACEN-PR
-- Pernambuco (PE) -  - **Alexandre Freitas** ([Linkedin](),[Github](), [Contato]()) - LACEN-PE
-- Piauí (PI)
-- Rio de Janeiro (RJ) - Rio de Janeiro - **Liliane Cavalcante** ([Linkedin](),[Github](), [Contato]())
-- Rio Grande do Norte (RN) -  - **Gabriel Motta** ([Linkedin](),[Github](), [Contato]()) - LACEN-RN
-- Rio Grande do Sul (RS) -  - **Juliano Silveira** ([Linkedin](),[Github](), [Contato]())  - LACEN-RS
-- Rondônia (RO) - Porto Velho - **Márlon Custódio** ([Linkedin](),[Github](), [Contato]())
-- Roraima (RR)
-- Santa Catarina (SC) -  - **Bruna Kellet** ([Linkedin](),[Github](), [Contato]()) - LACEN-SC
-- São Paulo (SP) - São Paulo - **Alef Janguas da Costa** ([Linkedin](),[Github](), [Contato]()) - LACEN-SP/ IAL-SP São Paulo SP (Instituto Adolf Lutz)
-- Sergipe (SE) -  - **Alexandre** ([Linkedin](),[Github](), [Contato]()) - LACEN-SE (Modelagem matemática)
-- Tocantins (TO)
+- LACEN-MA Maranhão (MA) -  - **Lucas Salomão** ([Linkedin](),[Github](), [Contato]()) - LACEN-MA
+- LACEN-MT Mato Grosso (MT) -  - **Stephanni Figueiredo** ([Linkedin](),[Github](), [Contato]()) - LACEN-MT
+- LACEN-MS Mato Grosso do Sul (MS) -  - **Glen García** ([Linkedin](),[Github](), [Contato]()) - LACEN-MS
+- LACEN-MG Minas Gerais (MG) -  - **Luiz Marcelo** ([Linkedin](),[Github](), [Contato]()) - LACEN-MG
+- LACEN-PA Pará (PA) -  - **Kenny** ([Linkedin](),[Github](), [Contato]()) - LACEN-PA (GLEN e keny sao conhecidos)
+- LACEN-PB Paraíba (PB) -  - **Clóvis Reis** -([Linkedin](),[Github](), [Contato]())
+- LACEN-PR Paraná (PR) -  - **Leticia** ([Linkedin](),[Github](), [Contato]()) - LACEN-PR
+- LACEN-PE Pernambuco (PE) -  - **Alexandre Freitas** ([Linkedin](),[Github](), [Contato]()) - LACEN-PE
+- LACEN-PI Piauí (PI)
+- LACEN-RJ Rio de Janeiro (RJ) - Rio de Janeiro - **Liliane Cavalcante** ([Linkedin](),[Github](), [Contato]())
+- LACEN-RN Rio Grande do Norte (RN) -  - **Gabriel Motta** ([Linkedin](),[Github](), [Contato]()) - LACEN-RN
+- LACEN-RS Rio Grande do Sul (RS) -  - **Juliano Silveira** ([Linkedin](),[Github](), [Contato]())  - LACEN-RS
+- LACEN-RO Rondônia (RO) - Porto Velho - **Márlon Custódio** ([Linkedin](),[Github](), [Contato]())
+- LACEN-RR Roraima (RR)
+- LACEN-SC Santa Catarina (SC) -  - **Bruna Kellet** ([Linkedin](),[Github](), [Contato]()) - LACEN-SC
+- LACEN-SP São Paulo (SP) - São Paulo - **Alef Janguas da Costa** ([Linkedin](),[Github](), [Contato]()) - LACEN-SP/ IAL-SP São Paulo SP (Instituto Adolf Lutz)
+- LACEN-SE Sergipe (SE) -  - **Alexandre** ([Linkedin](),[Github](), [Contato]()) - LACEN-SE (Modelagem matemática)
+- LACEN-TO Tocantins (TO)
 
 
 # Obter acesso ao GISAID
 
-O bioinformata vai ter que verificar se o LACEN ja possui algum acesso ao GISAID.
+O bioinformata vai ter que verificar se o LACEN já possui algum acesso ao GISAID.
 Em caso de negativa, o bioinformata tera que solicitar um email institucional para o seu respectivo LACEN ou criar um novo email Gmail.
 Com este email institucional/Gmail o bioinformata vai se registrar na plataforma GISAID (link de registro) e notificar a CGLAB por email(email cglab) que se registrou e aguarda aprovação
 
